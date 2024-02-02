@@ -1,17 +1,14 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+<script setup>
+  import Image from '../components/Image.vue'
 </script>
 
 <template>
-  <main>
-    home pagw view
-    <v-img
-  :width="300"
-  aspect-ratio="16/9"
-  cover
-  src="@/assets/beef-wellington-recipe-1605882724.jpg"
-></v-img>
-
-    <TheWelcome />
-  </main>
+  <div>
+    <p style="color: #FFF;">Home page view</p>
+    <Image />
+  </div>
 </template>
+
+<style lang="scss" scoped>
+
+</style>

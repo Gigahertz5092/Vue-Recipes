@@ -30,6 +30,7 @@
     "jsdom": "^23.0.1",
     "node-sass": "^9.0.0",
     "npm-run-all2": "^6.1.1",
+    "sass": "^1.70.0",
     "sass-loader": "^13.3.3",
     "start-server-and-test": "^2.0.3",
     "typescript": "~5.3.0",
