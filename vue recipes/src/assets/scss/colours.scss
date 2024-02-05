@@ -1,0 +1,11 @@
+$base-color: blue;
+$red: rgb(205, 9, 9);
+
+#rob {
+  width: 50%;
+  margin: 0 auto;
+  height: 200px;
+  background-color: $base-color;
+  border: 1px solid $red;
+}
+

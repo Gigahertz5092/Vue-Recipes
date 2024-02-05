@@ -1,24 +1,10 @@
 <template>
-    <img id="test" src="@/assets/beef-wellington-recipe-1605882724.jpg" />
+    <img src="../assets/logo.svg" />
 </template>
 
 <script>
+import { defineProps } from 'vue'
     export default {
         name: "Image"
-        /*,
-        props: {
-            imgSrc: {
-                type: String,
-                default: "test123"
-            },
-            alt: {
-                type: String,
-                default: ""
-            }
-        }*/
     }
 </script>
-
-<style>
-#test { border: 1px solid #fff;}
-</style>
